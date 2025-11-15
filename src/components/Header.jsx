@@ -18,7 +18,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex justify-between px-6 py-4 items-center">
         <div className="text-4xl font-bold">Wendimagegn Abera</div>
 
-        <nav className="space-x-6 hidden md:flex">
+        <nav className="space-x-12 hidden md:flex">
           <NavLink to="/" className={navLinkClasses}>Home</NavLink>
           <NavLink to="/about" className={navLinkClasses}>About</NavLink>
           <NavLink to="/skill" className={navLinkClasses}>Skill</NavLink>
